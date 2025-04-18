@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vendor Registration</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .product-section {
+            margin-top: 10px;
+        }
+        .product-item {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        button {
+            margin-top: 10px;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <h1>Vendor Registration</h1>
+    <form id="vendorForm">
+        <label for="vendorId">Vendor ID:</label>
+        <input type="number" id="vendorId" name="vendorId" required><br><br>
+
+        <label for="vendorName">Vendor Name:</label>
+        <input type="text" id="vendorName" name="vendorName" required><br><br>
+
+        <label for="vendorRating">Vendor Rating (1-5):</label>
+        <input type="number" id="vendorRating" name="vendorRating" min="1" max="5" required><br><br>
+
+        <h2>Product Section</h2>
+        <div id="productSection" class="product-section">
+            <!-- Product items will be added here -->
+        </div>
+        <button type="button" id="addProductBtn" onclick="addProduct()">Add Another Product</button><br><br>
+        
+        <button type="submit">Submit</button>
+    </form>
+
+</body>
+</html>

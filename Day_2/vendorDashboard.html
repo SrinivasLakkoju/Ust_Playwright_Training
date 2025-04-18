@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vendor Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <h1>Vendor Dashboard</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Vendor ID</th>
+                <th>Vendor Name</th>
+                <th>Vendor Rating</th>
+                <th>Products</th>
+            </tr>
+        </thead>
+        <tbody id="vendorTable"></tbody>
+    </table>
+    <br>
+    <button class="clear-button" onclick="clearData()">Clear All Data</button>
+    
+
+    <script>
+        
+        const vendors = JSON.parse(localStorage.getItem('vendors')) || [];
+
+        vendors.sort((a, b) => b.vendorRating - a.vendorRating);
+
+        const tbody = document.getElementById('vendorTable');
+        vendors.forEach(vendor => {
+            const productDetails = vendor.products.map(product => 
+                `ID: ${product.productId}, Name: ${product.productName}, Price: ${product.productPrice}`
+            ).join('<br>');
+
+            const row = `
+                <tr>
+                    <td>${vendor.vendorId}</td>
+                    <td>${vendor.vendorName}</td>
+                    <td>${vendor.vendorRating}</td>
+                    <td>${productDetails}</td>
+                </tr>
+            `;
+            tbody.innerHTML += row;
+        });
+
+        function clearData() {
+            localStorage.removeItem('vendors'); 
+            tbody.innerHTML = ''; 
+            alert("All vendor data has been cleared!");
+        }
+    </script>
+</body>
+</html>

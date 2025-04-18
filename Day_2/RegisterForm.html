@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Form</title>
+    <script src="RegisterForm.js"></script>
+    <style>
+        body {
+            font-family: Arial;
+            margin: 20px;
+        }
+        .error{
+            color: red;
+        }
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+        input {
+            display: block;
+            margin-bottom: 10px;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid black;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Register Form</h1>
+    <form id="registerForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+        <p class="error" id="nameError"></p>
+        
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age">
+        <p class="error" id="ageError"></p>
+        
+        <label for="role">Role:</label>
+        <input type="text" id="role" name="role">
+        <p class="error" id="roleError"></p>
+        
+        <label for="salary">Salary:</label>
+        <input type="number" id="salary" name="salary">
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        <p class="error" id="emailError"></p>
+        
+        <label for="phone">Phone Number:</label>
+        <input type="text" id="phone" name="phone">
+        <p class="error" id="phoneError"></p>
+        
+        <button type="button" onclick="displayUser()">Register</button>
+    </form>
+    <br><br>
+ <h2 id="dashHeader">Dashboard</h2>
+    <table id="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Role</th>
+                <th>Salary</th>
+                <th>Email</th>
+                <th>Phone Number</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+
+    

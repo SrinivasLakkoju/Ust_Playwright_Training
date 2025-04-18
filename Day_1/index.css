@@ -1,0 +1,14 @@
+.h2c{
+    color: red;
+}
+#h3c{
+    color:blueviolet;
+    font-style: italic;
+}
+
+#mybtn{
+    width: 110px;
+    height: 40px;
+    background-color: aqua;
+    border-radius: 20px;
+}
