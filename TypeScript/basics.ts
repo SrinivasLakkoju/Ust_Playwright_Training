@@ -18,5 +18,5 @@ type Vendor1 = {
  
   sortvendors().forEach((e)=>
     console.log(`Id ${e.id} name ${e.name}`));
- 
+    
  

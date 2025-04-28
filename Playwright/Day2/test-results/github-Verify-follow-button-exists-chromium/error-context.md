@@ -1,0 +1,845 @@
+# Test info
+
+- Name: Verify follow button exists
+- Location: C:\Users\291488\Javascript_Training\Playwright\Day1\tests\github.spec.ts:20:1
+
+# Error details
+
+```
+Error: Timed out 5000ms waiting for expect(locator).toBeVisible()
+
+Locator: locator('input[name="commit"]')
+Expected: visible
+Received: <element(s) not found>
+Call log:
+  - expect.toBeVisible with timeout 5000ms
+  - waiting for locator('input[name="commit"]')
+
+    at C:\Users\291488\Javascript_Training\Playwright\Day1\tests\github.spec.ts:23:32
+```
+
+# Page snapshot
+
+```yaml
+- link "Skip to content":
+  - /url: "#start-of-content"
+- banner:
+  - heading "Navigation Menu" [level=2]
+  - link "Homepage":
+    - /url: /
+  - navigation "Global":
+    - list:
+      - listitem:
+        - button "Product"
+      - listitem:
+        - button "Solutions"
+      - listitem:
+        - button "Resources"
+      - listitem:
+        - button "Open Source"
+      - listitem:
+        - button "Enterprise"
+      - listitem:
+        - link "Pricing":
+          - /url: https://github.com/pricing
+  - button "Search or jump to…"
+  - link "Sign in":
+    - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Faryan1403
+  - link "Sign up":
+    - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E&source=header
+- main:
+  - img "@aryan1403"
+  - strong: aryan1403
+  - link "Follow":
+    - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Faryan1403
+  - navigation "User profile":
+    - link "Overview":
+      - /url: /aryan1403
+    - link "Repositories 121":
+      - /url: /aryan1403?tab=repositories
+    - link "Projects":
+      - /url: /aryan1403?tab=projects
+    - link "Packages":
+      - /url: /aryan1403?tab=packages
+    - link "Stars 104":
+      - /url: /aryan1403?tab=stars
+  - img "@aryan1403"
+  - strong: aryan1403
+  - link "Follow":
+    - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Faryan1403
+  - link "View aryan1403's full-sized avatar":
+    - /url: https://avatars.githubusercontent.com/u/72555917?v=4
+    - img "View aryan1403's full-sized avatar"
+  - text: 🎯 Focusing
+  - heading "Aaryan aryan1403" [level=1]
+  - link "Follow":
+    - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Faryan1403
+  - text: Coder xD Concentrating....
+  - link "53 followers":
+    - /url: https://github.com/aryan1403?tab=followers
+  - text: ·
+  - link "1 following":
+    - /url: https://github.com/aryan1403?tab=following
+  - list:
+    - 'listitem "Organization: @Team-Extremis"':
+      - link "@Team-Extremis":
+        - /url: https://github.com/Team-Extremis
+    - 'listitem "Home location: Dehradun Uttrakhand"': Dehradun Uttrakhand
+    - listitem:
+      - img "X"
+      - link "@aaryan14032006":
+        - /url: https://twitter.com/aaryan14032006
+  - heading "Achievements" [level=2]:
+    - link "Achievements":
+      - /url: /aryan1403?tab=achievements
+  - 'link "Achievement: YOLO"':
+    - /url: /aryan1403?achievement=yolo&tab=achievements
+    - 'img "Achievement: YOLO"'
+  - 'link "Achievement: Pull Shark x2"':
+    - /url: /aryan1403?achievement=pull-shark&tab=achievements
+    - 'img "Achievement: Pull Shark"'
+    - text: x2
+  - button "Block or Report"
+  - link "aryan1403":
+    - /url: /aryan1403/aryan1403
+  - text: / Readme.md
+  - article:
+    - heading "Hi, I'm Aaryan" [level=1]:
+      - text: Hi, I'm
+      - link "Aaryan":
+        - /url: https://t.me/aryan1403
+    - 'link "Permalink: Hi, I''m Aaryan"':
+      - /url: "#hi-im-aaryan"
+    - list:
+      - listitem: 💫 Coder
+      - listitem:
+        - text: 📫
+        - link "Connect with me":
+          - /url: http://t.me/aryan1403
+        - text: .
+      - listitem: ⚡ Meow Meow
+    - separator
+    - paragraph:
+      - link "Twitter Follow":
+        - /url: https://twitter.com/intent/follow?screen_name=aaryan14032006
+        - img "Twitter Follow"
+      - link "GitHub followers":
+        - /url: https://camo.githubusercontent.com/34dcd522c3c68d8c8fa42729bf038bf8a4e15c0a1a54174b86de31db90a3bb1a/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f666f6c6c6f776572732f617279616e313430333f6c6162656c3d466f6c6c6f77267374796c653d736f6369616c
+        - img "GitHub followers"
+      - link:
+        - /url: https://camo.githubusercontent.com/0ab70bb29d07e73dba7ac409815e2173e63b1bf9aa4cd48b6923ef8fd807daa1/68747470733a2f2f76697369746f722d62616467652e676c697463682e6d652f62616467653f706167655f69643d617279616e313430332e617279616e31343033
+      - link "Profile views":
+        - /url: https://github.com/aryan1403
+        - img "Profile views"
+    - paragraph:
+      - link:
+        - /url: https://camo.githubusercontent.com/6f9296a4c8b352a3a335f257ccf592c010c5f578a17a2f8d7ef407efe5dbe6a9/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f56674344417a634b767352364f4d307557672f67697068792e676966
+        - img
+      - strong: My Github Data
+    - paragraph:
+      - link "Github Stats":
+        - /url: https://camo.githubusercontent.com/c77c0ab55c0ec3d3512aa7f6bce1b8f2a24a1142fb45387bbddcb2d34f5dd6d4/68747470733a2f2f6769746875622d726561646d652d73746174732e76657263656c2e6170702f6170693f757365726e616d653d617279616e31343033
+        - img "Github Stats"
+      - link "Top Langs":
+        - /url: https://camo.githubusercontent.com/81a2d8927f8ad18671fdaa2e3eefd32c6205f43e1e16ea40df9aa44957842620/68747470733a2f2f6769746875622d726561646d652d73746174732e76657263656c2e6170702f6170692f746f702d6c616e67732f3f757365726e616d653d617279616e3134303326686964653d546558266c61796f75743d636f6d70616374
+        - img "Top Langs"
+    - paragraph:
+      - link "Visitor Badge":
+        - /url: https://camo.githubusercontent.com/f2f47c63447e36420a7386b5fed67945ee52ba53ae8bd7dd1eab26d7a912041b/68747470733a2f2f76697369746f722d62616467652e6c616f62692e6963752f62616467653f706167655f69643d617279616e313430332e617279616e31343033
+        - img "Visitor Badge"
+    - heading "🛠️ Languages and tools" [level=2]
+    - 'link "Permalink: 🛠️ Languages and tools"':
+      - /url: "#️-languages-and-tools"
+    - paragraph:
+      - link "Java":
+        - /url: https://camo.githubusercontent.com/6d9ad4becc2d73ac5cefacc1370a6c37458f272a553046ea5e2b8351ea185747/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6a6176612d2532334544384230302e7376673f7374796c653d666f722d7468652d6261646765266c6f676f3d6a617661266c6f676f436f6c6f723d7768697465
+        - img "Java"
+      - link "Flutter":
+        - /url: https://camo.githubusercontent.com/031659092e85df76a0ab830ef77631a750b67d379b29c24f7969ccbc2829743a/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f466c75747465722d3032353639423f7374796c653d666f722d7468652d6261646765266c6f676f3d666c7574746572266c6f676f436f6c6f723d7768697465
+        - img "Flutter"
+      - link "JavaScript":
+        - /url: https://camo.githubusercontent.com/9bbd4c2b5f7cda139d91d34caa14392df56353ca55e19b58184610aa8b123854/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4a6176615363726970742d3332333333303f7374796c653d666f722d7468652d6261646765266c6f676f3d6a617661736372697074266c6f676f436f6c6f723d463744463145
+        - img "JavaScript"
+      - link "TypeScript":
+        - /url: https://camo.githubusercontent.com/8e77945348567678f7ac7879dfb294400492ed429d16392c98db21a7c00934d2/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f547970655363726970742d3030374143433f7374796c653d666f722d7468652d6261646765266c6f676f3d74797065736372697074266c6f676f436f6c6f723d7768697465
+        - img "TypeScript"
+      - link "Python":
+        - /url: https://camo.githubusercontent.com/07858da9ad3cd19f1e10777508bf1b5470f22f8eb0b3ceaa425e2ff85461e30e/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f507974686f6e2d3337373641423f7374796c653d666f722d7468652d6261646765266c6f676f3d707974686f6e266c6f676f436f6c6f723d7768697465
+        - img "Python"
+    - paragraph:
+      - link "React":
+        - /url: https://camo.githubusercontent.com/3467eb8e0dc6bdaa8fa6e979185d371ab39c105ec7bd6a01048806b74378d24c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f52656163742d3230323332413f7374796c653d666f722d7468652d6261646765266c6f676f3d7265616374266c6f676f436f6c6f723d363144414642
+        - img "React"
+      - link "Angular":
+        - /url: https://camo.githubusercontent.com/fa5be43dba8c79ff20be3296cd185fdce664d326a62548d8bfaccf20ab9495cd/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f416e67756c61722d4444303033313f7374796c653d666f722d7468652d6261646765266c6f676f3d616e67756c6172266c6f676f436f6c6f723d7768697465
+        - img "Angular"
+      - link "Nodejs":
+        - /url: https://camo.githubusercontent.com/8d2dde0f614101199d98e4331ca4f349ea994437190dae63353a1823929e95da/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4e6f64652e6a732d3333393933333f7374796c653d666f722d7468652d6261646765266c6f676f3d6e6f6465646f746a73266c6f676f436f6c6f723d7768697465
+        - img "Nodejs"
+    - paragraph:
+      - link "HTML5":
+        - /url: https://camo.githubusercontent.com/10c7a8fa2cf317cc7c4af6f13efac086a9f0ea010f0dfc746c94e5cde310b339/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f48544d4c352d4533344632363f7374796c653d666f722d7468652d6261646765266c6f676f3d68746d6c35266c6f676f436f6c6f723d7768697465
+        - img "HTML5"
+      - link "CSS3":
+        - /url: https://camo.githubusercontent.com/001d4637c08910acf414f12a1682879a1f99867f6f9a3550f0541e7d03dd34a2/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f435353332d3135373242363f7374796c653d666f722d7468652d6261646765266c6f676f3d63737333266c6f676f436f6c6f723d7768697465
+        - img "CSS3"
+      - link "Bootstrap":
+        - /url: https://camo.githubusercontent.com/4520a7028dfc78ec3ba2e270799b3727038981fe3e0a9bf7d701b1ad70bceef7/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f426f6f7473747261702d3536334437433f7374796c653d666f722d7468652d6261646765266c6f676f3d626f6f747374726170266c6f676f436f6c6f723d7768697465
+        - img "Bootstrap"
+    - paragraph:
+      - link "MongoDB":
+        - /url: https://camo.githubusercontent.com/de7db4a5d6209ee2a12dc3525cc63c885350d9360d94617ad1012cf65d540e35/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4d6f6e676f44422d77686974653f7374796c653d666f722d7468652d6261646765266c6f676f3d6d6f6e676f6462266c6f676f436f6c6f723d344541393442
+        - img "MongoDB"
+      - link "Redis":
+        - /url: https://camo.githubusercontent.com/943c42f7bdeaee3995b24577a789cbdd695524561035f5bc25c4d362b77c31a2/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f72656469732d2532334444303033312e7376673f267374796c653d666f722d7468652d6261646765266c6f676f3d7265646973266c6f676f436f6c6f723d7768697465
+        - img "Redis"
+      - link "PostgreSQL":
+        - /url: https://camo.githubusercontent.com/4aed80090cf6326364d8fbc173e9d307293da717b071823b37d3514afcbcd98e/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f506f737467726553514c2d3331363139323f7374796c653d666f722d7468652d6261646765266c6f676f3d706f737467726573716c266c6f676f436f6c6f723d7768697465
+        - img "PostgreSQL"
+      - link "MySQL":
+        - /url: https://camo.githubusercontent.com/2449c5a2427e05c09b843029cff7898df305c5697bbe64c7c12f1ccdc99c2705/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4d7953514c2d3030303030463f7374796c653d666f722d7468652d6261646765266c6f676f3d6d7973716c266c6f676f436f6c6f723d7768697465
+        - img "MySQL"
+    - heading "Heroku Docker Raspberry Pi" [level=2]:
+      - link "Heroku":
+        - /url: https://camo.githubusercontent.com/f61bfb4588bc00edc003d86701a5b59041ef3c4f3324f4d8b09d38dfe9dfbb6f/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4865726f6b752d3433303039383f7374796c653d666f722d7468652d6261646765266c6f676f3d6865726f6b75266c6f676f436f6c6f723d7768697465
+        - img "Heroku"
+      - link "Docker":
+        - /url: https://camo.githubusercontent.com/ab945c282029462b8f24ba4a97ee20f2b70e13a2d3720ab2babc73bbc492049f/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f446f636b65722d3243413545303f7374796c653d666f722d7468652d6261646765266c6f676f3d646f636b6572266c6f676f436f6c6f723d7768697465
+        - img "Docker"
+      - link "Raspberry Pi":
+        - /url: https://camo.githubusercontent.com/ebbe7d1f56b209143cb6cc43b35a260f657792cbbc20c863cf77902192254080/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f52415350424552525925323050492d4335314134412e7376673f267374796c653d666f722d7468652d6261646765266c6f676f3d7261737062657272792532307069266c6f676f436f6c6f723d7768697465
+        - img "Raspberry Pi"
+    - link "Permalink:":
+      - /url: "#"
+    - heading "📊 Stats" [level=2]:
+      - text: 📊
+      - strong: Stats
+    - 'link "Permalink: 📊 Stats"':
+      - /url: "#-stats"
+    - paragraph:
+      - link "me":
+        - /url: https://camo.githubusercontent.com/84ce51d52927531f81da35e1bc27358142550a2e62b0eef5fbdda3fac5eab6b7/68747470733a2f2f6769746875622d726561646d652d73747265616b2d73746174732e6865726f6b756170702e636f6d2f3f757365723d617279616e31343033
+        - img "me"
+    - paragraph:
+      - link "Metrics":
+        - /url: https://t.me/aryan1403
+        - img "Metrics"
+    - separator
+    - heading "Donate me xD" [level=2]
+    - 'link "Permalink: Donate me xD"':
+      - /url: "#donate-me-xd"
+    - paragraph:
+      - link "PayPal":
+        - /url: https://paypal.me/surinderkumar1492?locale.x=en_GB
+        - img "PayPal"
+  - heading "Pinned Loading" [level=2]:
+    - text: Pinned Loading
+    - status
+  - list:
+    - listitem:
+      - link "Raganrok":
+        - /url: /aryan1403/Raganrok
+      - text: Public
+      - paragraph
+      - paragraph:
+        - text: Python
+        - link "stars 2":
+          - /url: /aryan1403/Raganrok/stargazers
+          - img "stars"
+          - text: "2"
+        - link "forks 9":
+          - /url: /aryan1403/Raganrok/forks
+          - img "forks"
+          - text: "9"
+    - listitem:
+      - link "PasswordManager":
+        - /url: /aryan1403/PasswordManager
+      - text: Public
+      - paragraph
+      - paragraph:
+        - text: Java
+        - link "star 1":
+          - /url: /aryan1403/PasswordManager/stargazers
+          - img "star"
+          - text: "1"
+    - listitem:
+      - link "EvilX":
+        - /url: /aryan1403/EvilX
+      - text: Public
+      - paragraph: A Telegram Bot made in Java
+      - paragraph:
+        - text: Java
+        - link "stars 4":
+          - /url: /aryan1403/EvilX/stargazers
+          - img "stars"
+          - text: "4"
+    - listitem:
+      - link "Sorting-Visualizer":
+        - /url: /aryan1403/Sorting-Visualizer
+      - text: Public
+      - paragraph
+      - paragraph:
+        - text: Java
+        - link "star 1":
+          - /url: /aryan1403/Sorting-Visualizer/stargazers
+          - img "star"
+          - text: "1"
+    - listitem:
+      - link "WhatsXBot":
+        - /url: /aryan1403/WhatsXBot
+      - text: Public
+      - paragraph
+      - paragraph:
+        - text: Java
+        - link "stars 11":
+          - /url: /aryan1403/WhatsXBot/stargazers
+          - img "stars"
+          - text: "11"
+        - link "forks 7":
+          - /url: /aryan1403/WhatsXBot/forks
+          - img "forks"
+          - text: "7"
+    - listitem:
+      - link "InstagramXBot":
+        - /url: /aryan1403/InstagramXBot
+      - text: Public
+      - paragraph
+      - paragraph:
+        - text: Java
+        - link "stars 2":
+          - /url: /aryan1403/InstagramXBot/stargazers
+          - img "stars"
+          - text: "2"
+  - heading "88 contributions in the last year" [level=2]
+  - grid "Contribution Graph":
+    - caption: Contribution Graph
+    - rowgroup:
+      - row "Day of Week April May June July August September October November December January February March April":
+        - gridcell "Day of Week"
+        - gridcell "April"
+        - gridcell "May"
+        - gridcell "June"
+        - gridcell "July"
+        - gridcell "August"
+        - gridcell "September"
+        - gridcell "October"
+        - gridcell "November"
+        - gridcell "December"
+        - gridcell "January"
+        - gridcell "February"
+        - gridcell "March"
+        - gridcell "April"
+    - rowgroup:
+      - row:
+        - gridcell "Sunday"
+        - gridcell "No contributions on April 21st."
+        - gridcell "No contributions on April 28th."
+        - gridcell "No contributions on May 5th."
+        - gridcell "No contributions on May 12th."
+        - gridcell "No contributions on May 19th."
+        - gridcell "No contributions on May 26th."
+        - gridcell "No contributions on June 2nd."
+        - gridcell "No contributions on June 9th."
+        - gridcell "No contributions on June 16th."
+        - gridcell "No contributions on June 23rd."
+        - gridcell "No contributions on June 30th."
+        - gridcell "No contributions on July 7th."
+        - gridcell "No contributions on July 14th."
+        - gridcell "1 contribution on July 21st."
+        - gridcell "No contributions on July 28th."
+        - gridcell "No contributions on August 4th."
+        - gridcell "No contributions on August 11th."
+        - gridcell "No contributions on August 18th."
+        - gridcell "No contributions on August 25th."
+        - gridcell "No contributions on September 1st."
+        - gridcell "No contributions on September 8th."
+        - gridcell "No contributions on September 15th."
+        - gridcell "No contributions on September 22nd."
+        - gridcell "No contributions on September 29th."
+        - gridcell "No contributions on October 6th."
+        - gridcell "No contributions on October 13th."
+        - gridcell "No contributions on October 20th."
+        - gridcell "No contributions on October 27th."
+        - gridcell "No contributions on November 3rd."
+        - gridcell "No contributions on November 10th."
+        - gridcell "No contributions on November 17th."
+        - gridcell "No contributions on November 24th."
+        - gridcell "No contributions on December 1st."
+        - gridcell "No contributions on December 8th."
+        - gridcell "No contributions on December 15th."
+        - gridcell "No contributions on December 22nd."
+        - gridcell "No contributions on December 29th."
+        - gridcell "No contributions on January 5th."
+        - gridcell "No contributions on January 12th."
+        - gridcell "No contributions on January 19th."
+        - gridcell "No contributions on January 26th."
+        - gridcell "No contributions on February 2nd."
+        - gridcell "No contributions on February 9th."
+        - gridcell "No contributions on February 16th."
+        - gridcell "No contributions on February 23rd."
+        - gridcell "No contributions on March 2nd."
+        - gridcell "No contributions on March 9th."
+        - gridcell "No contributions on March 16th."
+        - gridcell "No contributions on March 23rd."
+        - gridcell "No contributions on March 30th."
+        - gridcell "No contributions on April 6th."
+        - gridcell "No contributions on April 13th."
+        - gridcell "No contributions on April 20th."
+      - row:
+        - gridcell "Monday"
+        - gridcell "No contributions on April 22nd."
+        - gridcell "No contributions on April 29th."
+        - gridcell "No contributions on May 6th."
+        - gridcell "No contributions on May 13th."
+        - gridcell "No contributions on May 20th."
+        - gridcell "No contributions on May 27th."
+        - gridcell "No contributions on June 3rd."
+        - gridcell "6 contributions on June 10th."
+        - gridcell "No contributions on June 17th."
+        - gridcell "No contributions on June 24th."
+        - gridcell "No contributions on July 1st."
+        - gridcell "No contributions on July 8th."
+        - gridcell "No contributions on July 15th."
+        - gridcell "6 contributions on July 22nd."
+        - gridcell "No contributions on July 29th."
+        - gridcell "No contributions on August 5th."
+        - gridcell "No contributions on August 12th."
+        - gridcell "No contributions on August 19th."
+        - gridcell "No contributions on August 26th."
+        - gridcell "No contributions on September 2nd."
+        - gridcell "No contributions on September 9th."
+        - gridcell "No contributions on September 16th."
+        - gridcell "No contributions on September 23rd."
+        - gridcell "No contributions on September 30th."
+        - gridcell "No contributions on October 7th."
+        - gridcell "No contributions on October 14th."
+        - gridcell "No contributions on October 21st."
+        - gridcell "No contributions on October 28th."
+        - gridcell "No contributions on November 4th."
+        - gridcell "No contributions on November 11th."
+        - gridcell "No contributions on November 18th."
+        - gridcell "No contributions on November 25th."
+        - gridcell "No contributions on December 2nd."
+        - gridcell "No contributions on December 9th."
+        - gridcell "No contributions on December 16th."
+        - gridcell "No contributions on December 23rd."
+        - gridcell "No contributions on December 30th."
+        - gridcell "No contributions on January 6th."
+        - gridcell "No contributions on January 13th."
+        - gridcell "No contributions on January 20th."
+        - gridcell "No contributions on January 27th."
+        - gridcell "No contributions on February 3rd."
+        - gridcell "No contributions on February 10th."
+        - gridcell "No contributions on February 17th."
+        - gridcell "No contributions on February 24th."
+        - gridcell "No contributions on March 3rd."
+        - gridcell "No contributions on March 10th."
+        - gridcell "No contributions on March 17th."
+        - gridcell "No contributions on March 24th."
+        - gridcell "No contributions on March 31st."
+        - gridcell "No contributions on April 7th."
+        - gridcell "No contributions on April 14th."
+        - gridcell "No contributions on April 21st."
+      - row:
+        - gridcell "Tuesday"
+        - gridcell "No contributions on April 23rd."
+        - gridcell "No contributions on April 30th."
+        - gridcell "No contributions on May 7th."
+        - gridcell "No contributions on May 14th."
+        - gridcell "No contributions on May 21st."
+        - gridcell "No contributions on May 28th."
+        - gridcell "1 contribution on June 4th."
+        - gridcell "No contributions on June 11th."
+        - gridcell "No contributions on June 18th."
+        - gridcell "No contributions on June 25th."
+        - gridcell "No contributions on July 2nd."
+        - gridcell "1 contribution on July 9th."
+        - gridcell "No contributions on July 16th."
+        - gridcell "9 contributions on July 23rd."
+        - gridcell "No contributions on July 30th."
+        - gridcell "No contributions on August 6th."
+        - gridcell "No contributions on August 13th."
+        - gridcell "No contributions on August 20th."
+        - gridcell "No contributions on August 27th."
+        - gridcell "No contributions on September 3rd."
+        - gridcell "No contributions on September 10th."
+        - gridcell "No contributions on September 17th."
+        - gridcell "No contributions on September 24th."
+        - gridcell "No contributions on October 1st."
+        - gridcell "3 contributions on October 8th."
+        - gridcell "No contributions on October 15th."
+        - gridcell "No contributions on October 22nd."
+        - gridcell "No contributions on October 29th."
+        - gridcell "No contributions on November 5th."
+        - gridcell "No contributions on November 12th."
+        - gridcell "No contributions on November 19th."
+        - gridcell "No contributions on November 26th."
+        - gridcell "No contributions on December 3rd."
+        - gridcell "No contributions on December 10th."
+        - gridcell "No contributions on December 17th."
+        - gridcell "No contributions on December 24th."
+        - gridcell "No contributions on December 31st."
+        - gridcell "No contributions on January 7th."
+        - gridcell "No contributions on January 14th."
+        - gridcell "No contributions on January 21st."
+        - gridcell "No contributions on January 28th."
+        - gridcell "No contributions on February 4th."
+        - gridcell "No contributions on February 11th."
+        - gridcell "No contributions on February 18th."
+        - gridcell "No contributions on February 25th."
+        - gridcell "No contributions on March 4th."
+        - gridcell "No contributions on March 11th."
+        - gridcell "No contributions on March 18th."
+        - gridcell "No contributions on March 25th."
+        - gridcell "No contributions on April 1st."
+        - gridcell "No contributions on April 8th."
+        - gridcell "No contributions on April 15th."
+        - gridcell "4 contributions on April 22nd."
+      - row:
+        - gridcell "Wednesday"
+        - gridcell "2 contributions on April 24th."
+        - gridcell "No contributions on May 1st."
+        - gridcell "No contributions on May 8th."
+        - gridcell "No contributions on May 15th."
+        - gridcell "No contributions on May 22nd."
+        - gridcell "No contributions on May 29th."
+        - gridcell "No contributions on June 5th."
+        - gridcell "No contributions on June 12th."
+        - gridcell "1 contribution on June 19th."
+        - gridcell "1 contribution on June 26th."
+        - gridcell "3 contributions on July 3rd."
+        - gridcell "No contributions on July 10th."
+        - gridcell "No contributions on July 17th."
+        - gridcell "2 contributions on July 24th."
+        - gridcell "No contributions on July 31st."
+        - gridcell "No contributions on August 7th."
+        - gridcell "10 contributions on August 14th."
+        - gridcell "No contributions on August 21st."
+        - gridcell "No contributions on August 28th."
+        - gridcell "No contributions on September 4th."
+        - gridcell "No contributions on September 11th."
+        - gridcell "No contributions on September 18th."
+        - gridcell "No contributions on September 25th."
+        - gridcell "No contributions on October 2nd."
+        - gridcell "No contributions on October 9th."
+        - gridcell "No contributions on October 16th."
+        - gridcell "No contributions on October 23rd."
+        - gridcell "No contributions on October 30th."
+        - gridcell "No contributions on November 6th."
+        - gridcell "No contributions on November 13th."
+        - gridcell "No contributions on November 20th."
+        - gridcell "No contributions on November 27th."
+        - gridcell "No contributions on December 4th."
+        - gridcell "No contributions on December 11th."
+        - gridcell "No contributions on December 18th."
+        - gridcell "No contributions on December 25th."
+        - gridcell "No contributions on January 1st."
+        - gridcell "No contributions on January 8th."
+        - gridcell "No contributions on January 15th."
+        - gridcell "No contributions on January 22nd."
+        - gridcell "3 contributions on January 29th."
+        - gridcell "No contributions on February 5th."
+        - gridcell "No contributions on February 12th."
+        - gridcell "No contributions on February 19th."
+        - gridcell "No contributions on February 26th."
+        - gridcell "No contributions on March 5th."
+        - gridcell "No contributions on March 12th."
+        - gridcell "No contributions on March 19th."
+        - gridcell "No contributions on March 26th."
+        - gridcell "No contributions on April 2nd."
+        - gridcell "No contributions on April 9th."
+        - gridcell "2 contributions on April 16th."
+        - gridcell "3 contributions on April 23rd."
+      - row:
+        - gridcell "Thursday"
+        - gridcell "No contributions on April 25th."
+        - gridcell "No contributions on May 2nd."
+        - gridcell "No contributions on May 9th."
+        - gridcell "No contributions on May 16th."
+        - gridcell "No contributions on May 23rd."
+        - gridcell "No contributions on May 30th."
+        - gridcell "No contributions on June 6th."
+        - gridcell "No contributions on June 13th."
+        - gridcell "2 contributions on June 20th."
+        - gridcell "No contributions on June 27th."
+        - gridcell "1 contribution on July 4th."
+        - gridcell "No contributions on July 11th."
+        - gridcell "No contributions on July 18th."
+        - gridcell "No contributions on July 25th."
+        - gridcell "No contributions on August 1st."
+        - gridcell "No contributions on August 8th."
+        - gridcell "No contributions on August 15th."
+        - gridcell "No contributions on August 22nd."
+        - gridcell "No contributions on August 29th."
+        - gridcell "No contributions on September 5th."
+        - gridcell "No contributions on September 12th."
+        - gridcell "No contributions on September 19th."
+        - gridcell "No contributions on September 26th."
+        - gridcell "No contributions on October 3rd."
+        - gridcell "No contributions on October 10th."
+        - gridcell "No contributions on October 17th."
+        - gridcell "No contributions on October 24th."
+        - gridcell "No contributions on October 31st."
+        - gridcell "No contributions on November 7th."
+        - gridcell "No contributions on November 14th."
+        - gridcell "No contributions on November 21st."
+        - gridcell "No contributions on November 28th."
+        - gridcell "No contributions on December 5th."
+        - gridcell "No contributions on December 12th."
+        - gridcell "No contributions on December 19th."
+        - gridcell "No contributions on December 26th."
+        - gridcell "No contributions on January 2nd."
+        - gridcell "No contributions on January 9th."
+        - gridcell "No contributions on January 16th."
+        - gridcell "No contributions on January 23rd."
+        - gridcell "No contributions on January 30th."
+        - gridcell "No contributions on February 6th."
+        - gridcell "No contributions on February 13th."
+        - gridcell "No contributions on February 20th."
+        - gridcell "No contributions on February 27th."
+        - gridcell "No contributions on March 6th."
+        - gridcell "No contributions on March 13th."
+        - gridcell "No contributions on March 20th."
+        - gridcell "No contributions on March 27th."
+        - gridcell "No contributions on April 3rd."
+        - gridcell "No contributions on April 10th."
+        - gridcell "6 contributions on April 17th."
+        - gridcell
+      - row:
+        - gridcell "Friday"
+        - gridcell "No contributions on April 26th."
+        - gridcell "No contributions on May 3rd."
+        - gridcell "No contributions on May 10th."
+        - gridcell "3 contributions on May 17th."
+        - gridcell "No contributions on May 24th."
+        - gridcell "No contributions on May 31st."
+        - gridcell "No contributions on June 7th."
+        - gridcell "1 contribution on June 14th."
+        - gridcell "No contributions on June 21st."
+        - gridcell "No contributions on June 28th."
+        - gridcell "5 contributions on July 5th."
+        - gridcell "2 contributions on July 12th."
+        - gridcell "3 contributions on July 19th."
+        - gridcell "1 contribution on July 26th."
+        - gridcell "No contributions on August 2nd."
+        - gridcell "No contributions on August 9th."
+        - gridcell "No contributions on August 16th."
+        - gridcell "No contributions on August 23rd."
+        - gridcell "No contributions on August 30th."
+        - gridcell "No contributions on September 6th."
+        - gridcell "No contributions on September 13th."
+        - gridcell "No contributions on September 20th."
+        - gridcell "No contributions on September 27th."
+        - gridcell "No contributions on October 4th."
+        - gridcell "No contributions on October 11th."
+        - gridcell "No contributions on October 18th."
+        - gridcell "No contributions on October 25th."
+        - gridcell "No contributions on November 1st."
+        - gridcell "No contributions on November 8th."
+        - gridcell "No contributions on November 15th."
+        - gridcell "No contributions on November 22nd."
+        - gridcell "No contributions on November 29th."
+        - gridcell "No contributions on December 6th."
+        - gridcell "No contributions on December 13th."
+        - gridcell "No contributions on December 20th."
+        - gridcell "No contributions on December 27th."
+        - gridcell "No contributions on January 3rd."
+        - gridcell "No contributions on January 10th."
+        - gridcell "No contributions on January 17th."
+        - gridcell "No contributions on January 24th."
+        - gridcell "No contributions on January 31st."
+        - gridcell "No contributions on February 7th."
+        - gridcell "No contributions on February 14th."
+        - gridcell "No contributions on February 21st."
+        - gridcell "No contributions on February 28th."
+        - gridcell "No contributions on March 7th."
+        - gridcell "No contributions on March 14th."
+        - gridcell "No contributions on March 21st."
+        - gridcell "No contributions on March 28th."
+        - gridcell "No contributions on April 4th."
+        - gridcell "No contributions on April 11th."
+        - gridcell "5 contributions on April 18th."
+        - gridcell
+      - row:
+        - gridcell "Saturday"
+        - gridcell "No contributions on April 27th."
+        - gridcell "No contributions on May 4th."
+        - gridcell "No contributions on May 11th."
+        - gridcell "No contributions on May 18th."
+        - gridcell "No contributions on May 25th."
+        - gridcell "No contributions on June 1st."
+        - gridcell "No contributions on June 8th."
+        - gridcell "No contributions on June 15th."
+        - gridcell "No contributions on June 22nd."
+        - gridcell "No contributions on June 29th."
+        - gridcell "No contributions on July 6th."
+        - gridcell "No contributions on July 13th."
+        - gridcell "No contributions on July 20th."
+        - gridcell "No contributions on July 27th."
+        - gridcell "No contributions on August 3rd."
+        - gridcell "No contributions on August 10th."
+        - gridcell "No contributions on August 17th."
+        - gridcell "1 contribution on August 24th."
+        - gridcell "No contributions on August 31st."
+        - gridcell "No contributions on September 7th."
+        - gridcell "No contributions on September 14th."
+        - gridcell "No contributions on September 21st."
+        - gridcell "No contributions on September 28th."
+        - gridcell "No contributions on October 5th."
+        - gridcell "No contributions on October 12th."
+        - gridcell "No contributions on October 19th."
+        - gridcell "No contributions on October 26th."
+        - gridcell "No contributions on November 2nd."
+        - gridcell "No contributions on November 9th."
+        - gridcell "No contributions on November 16th."
+        - gridcell "No contributions on November 23rd."
+        - gridcell "No contributions on November 30th."
+        - gridcell "No contributions on December 7th."
+        - gridcell "No contributions on December 14th."
+        - gridcell "No contributions on December 21st."
+        - gridcell "No contributions on December 28th."
+        - gridcell "No contributions on January 4th."
+        - gridcell "No contributions on January 11th."
+        - gridcell "No contributions on January 18th."
+        - gridcell "No contributions on January 25th."
+        - gridcell "No contributions on February 1st."
+        - gridcell "No contributions on February 8th."
+        - gridcell "No contributions on February 15th."
+        - gridcell "No contributions on February 22nd."
+        - gridcell "No contributions on March 1st."
+        - gridcell "No contributions on March 8th."
+        - gridcell "No contributions on March 15th."
+        - gridcell "No contributions on March 22nd."
+        - gridcell "No contributions on March 29th."
+        - gridcell "No contributions on April 5th."
+        - gridcell "No contributions on April 12th."
+        - gridcell "No contributions on April 19th."
+        - gridcell
+  - link "Learn how we count contributions":
+    - /url: https://docs.github.com/articles/why-are-my-contributions-not-showing-up-on-my-profile
+  - text: Less No contributions. Low contributions. Medium-low contributions. Medium-high contributions. High contributions. More
+  - heading "Activity overview" [level=3]
+  - text: Contributed to
+  - link "aryan1403/Playwright_UST":
+    - /url: /aryan1403/Playwright_UST
+  - text: ","
+  - link "aryan1403/playright-dmeo":
+    - /url: /aryan1403/playright-dmeo
+  - text: ","
+  - link "aryan1403/Oracle-JET-Training":
+    - /url: /aryan1403/Oracle-JET-Training
+  - text: and 18 other repositories Loading
+  - img "A graph representing aryan1403's contributions from April 21, 2024 to April 23, 2025. The contributions are 97% commits, 3% pull requests, 0% issues, 0% code review.": Code review Issues 3% Pull requests 97% Commits
+  - heading "Contribution activity" [level=2]
+  - heading "April 2025" [level=3]
+  - group:
+    - button "Collapse" [expanded]: Created 19 commits in 1 repository
+    - list:
+      - listitem:
+        - link "aryan1403/Playwright_UST":
+          - /url: /aryan1403/Playwright_UST
+        - link "19 commits":
+          - /url: /aryan1403/Playwright_UST/commits?author=aryan1403&since=2025-04-01&until=2025-04-24
+        - img "100% of commits in April were made to aryan1403/Playwright_UST"
+  - group:
+    - button "Collapse" [expanded]: Created 1 repository
+    - list:
+      - listitem:
+        - link "aryan1403/Playwright_UST":
+          - /url: /aryan1403/Playwright_UST
+        - text: TypeScript This contribution was made on Apr 16
+  - text: Loading
+  - button "Show more activity"
+  - list:
+    - listitem:
+      - link "Contribution activity in 2025":
+        - /url: /aryan1403?tab=overview&from=2025-04-01&to=2025-04-23
+        - text: "2025"
+    - listitem:
+      - link "Contribution activity in 2024":
+        - /url: /aryan1403?tab=overview&from=2024-12-01&to=2024-12-31
+        - text: "2024"
+    - listitem:
+      - link "Contribution activity in 2023":
+        - /url: /aryan1403?tab=overview&from=2023-12-01&to=2023-12-31
+        - text: "2023"
+    - listitem:
+      - link "Contribution activity in 2022":
+        - /url: /aryan1403?tab=overview&from=2022-12-01&to=2022-12-31
+        - text: "2022"
+    - listitem:
+      - link "Contribution activity in 2021":
+        - /url: /aryan1403?tab=overview&from=2021-12-01&to=2021-12-31
+        - text: "2021"
+    - listitem:
+      - link "Contribution activity in 2020":
+        - /url: /aryan1403?tab=overview&from=2020-12-01&to=2020-12-31
+        - text: "2020"
+- contentinfo:
+  - heading "Footer" [level=2]
+  - link "Homepage":
+    - /url: https://github.com
+  - text: © 2025 GitHub, Inc.
+  - navigation "Footer":
+    - heading "Footer navigation" [level=3]
+    - list "Footer navigation":
+      - listitem:
+        - link "Terms":
+          - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+      - listitem:
+        - link "Privacy":
+          - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+      - listitem:
+        - link "Security":
+          - /url: https://github.com/security
+      - listitem:
+        - link "Status":
+          - /url: https://www.githubstatus.com/
+      - listitem:
+        - link "Docs":
+          - /url: https://docs.github.com/
+      - listitem:
+        - link "Contact":
+          - /url: https://support.github.com?tags=dotcom-footer
+      - listitem:
+        - button "Manage cookies"
+      - listitem:
+        - button "Do not share my personal information"
+```
+
+# Test source
+
+```ts
+   1 | const { test, expect } = require('@playwright/test');
+   2 |
+   3 | // test('GitHub profile should load properly', async ({ page }) => {
+   4 | //     await page.goto('https://github.com/aryan1403');
+   5 | //     await expect(page).toHaveTitle(/aryan1403/);
+   6 | // });
+   7 |
+   8 | // test('Check if repositories section exists', async ({ page }) => {
+   9 | //     await page.goto('https://github.com/aryan1403');
+  10 | //     const reposTab = await page.getByRole('link', { name: 'Repositories' });
+  11 | //     await expect(reposTab).toBeVisible();
+  12 | // });
+  13 |
+  14 | // test('Ensure profile name is visible', async ({ page }) => {
+  15 | //     await page.goto('https://github.com/aryan1403');
+  16 | //     const profileName = await page.locator('span[itemprop="name"]');
+  17 | //     await expect(profileName).toBeVisible();
+  18 | // });
+  19 |
+  20 | test('Verify follow button exists', async ({ page }) => {
+  21 |     await page.goto('https://github.com/aryan1403');
+  22 |     const followButton = await page.locator('input[name="commit"]');
+> 23 |     await expect(followButton).toBeVisible();
+     |                                ^ Error: Timed out 5000ms waiting for expect(locator).toBeVisible()
+  24 | });
+  25 |
+  26 | // test('Check contributions graph is displayed', async ({ page }) => {
+  27 | //     await page.goto('https://github.com/aryan1403');
+  28 | //     const contributionsGraph = await page.locator('.js-yearly-contributions');
+  29 | //     await expect(contributionsGraph).toBeVisible();
+  30 | // });
+  31 |
+```
