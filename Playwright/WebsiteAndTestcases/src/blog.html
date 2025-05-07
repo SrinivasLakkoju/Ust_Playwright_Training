@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Movie Review Blog - View & Review</title>
+  <link rel="stylesheet" href="./styles.css" />
+  <style>
+    body {
+      background: #ffffff;
+      font-family: 'Poppins', sans-serif;
+      color: #333;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+
+    .nav-container {
+      background-color: #222;
+      padding: 20px;
+      width: 200px;
+      height: 100vh;
+      position: fixed;
+      left: 0;
+      top: 0;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .nav-list {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .nav-list li {
+      margin: 10px 0;
+    }
+
+    .nav-list li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      display: block;
+      padding: 10px;
+      transition: background 0.3s;
+    }
+
+    .nav-list li a:hover {
+      background: rgba(255, 255, 255, 0.2);
+    }
+
+    .main-content {
+      margin-left: 220px;
+      padding: 20px;
+      width: 100%;
+    }
+
+    .blog-header {
+      text-align: center;
+      padding: 50px 20px;
+      background: #f4f4f4;
+      border-bottom: 4px solid #ffcc00;
+    }
+
+    .blog-header h1 {
+      font-size: 42px;
+      font-weight: bold;
+      margin-bottom: 10px;
+      color: #222;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: auto;
+      padding: 30px;
+      background: #f9f9f9;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .movie-list {
+      list-style: none;
+      padding: 0;
+    }
+
+    .movie-list li {
+      padding: 12px;
+      background: #ebebeb;
+      margin-bottom: 10px;
+      border-radius: 5px;
+      transition: background 0.3s ease, transform 0.2s ease;
+    }
+
+    .movie-list li a {
+      color: #222;
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    .movie-list li:hover {
+      background: #ddd;
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+  <script src="./js/auth.js"></script>
+
+  <nav class="nav-container">
+    <ul class="nav-list">
+      <li><a href="./index.html">Home</a></li>
+      <li><a href="./about.html">About</a></li>
+      <li><a href="./homestay.html">Movies</a></li>
+      <li><a href="./blog.html">Blog</a></li>
+      <li><a href="./contact.html">Contact</a></li>
+      <li><a href="./login.html">Login</a></li>
+      <li id="profile-icon-container"></li>
+    </ul>
+  </nav>
+
+  <div class="main-content">
+    <header class="blog-header">
+      <div class="container">
+        <h1>Movie Review Blog</h1>
+        <p>Explore in-depth reviews, audience ratings, and upcoming film discussions.</p>
+      </div>
+    </header>
+
+    <main class="container">
+      <section id="top-reviewed">
+        <h2>🎬 Top 10 Most Reviewed Films</h2>
+        <ul class="movie-list">
+          <li><a href="#">1. The Dark Knight</a></li>
+          <li><a href="#">2. Inception</a></li>
+          <li><a href="#">3. Interstellar</a></li>
+          <li><a href="#">4. Parasite</a></li>
+          <li><a href="#">5. Avengers: Endgame</a></li>
+          <li><a href="#">6. The Godfather</a></li>
+          <li><a href="#">7. Pulp Fiction</a></li>
+          <li><a href="#">8. Fight Club</a></li>
+          <li><a href="#">9. Titanic</a></li>
+          <li><a href="#">10. Joker</a></li>
+        </ul>
+      </section>
+
+      <section id="upcoming-movies">
+        <h2>🚀 Most Anticipated Upcoming Films</h2>
+        <ul class="movie-list">
+          <li><a href="#">1. Deadpool & Wolverine</a></li>
+          <li><a href="#">2. Gladiator II</a></li>
+          <li><a href="#">3. Joker: Folie à Deux</a></li>
+          <li><a href="#">4. Avatar 3</a></li>
+          <li><a href="#">5. The Fantastic Four</a></li>
+          <li><a href="#">6. Spider-Man: Beyond the Spider-Verse</a></li>
+          <li><a href="#">7. The Lord of the Rings: The Hunt for Gollum</a></li>
+          <li><a href="#">8. Blade</a></li>
+          <li><a href="#">9. Moana 2</a></li>
+          <li><a href="#">10. Mission Impossible 8</a></li>
+        </ul>
+      </section>
+
+      <!-- Added missing #posts container for blog posts -->
+      <div id="posts"></div>
+
+      <!-- Added subscription form -->
+      <form id="subscribe-form">
+        <input type="email" name="email" placeholder="Enter email" required />
+        <button type="submit">Subscribe</button>
+      </form>
+      <div id="subscribe-message" style="display: none;"></div>
+    </main>
+  </div>
+
+  <script src="./js/blog.js"></script>
+</body>
+</html>

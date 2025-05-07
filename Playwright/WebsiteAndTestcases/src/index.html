@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>View and Review</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <style>
+        body {
+            background-color: #ececec;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        .hero-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .nav-container {
+            background-color: #222;
+            padding: 20px;
+            width: 200px;
+            height: 100vh;
+            position: fixed;
+        }
+        .nav-list {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+        }
+        .nav-list li {
+            margin: 10px 0;
+        }
+        .nav-list li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            display: block;
+            padding: 10px;
+        }
+        .main-content {
+            margin-left: 220px;
+            padding: 20px;
+            width: 100%;
+        }
+        .hero {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: url('./images/hero-bg.jpg') no-repeat center center/cover;
+    color: #ff5733;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+        .btn {
+            background-color: #ff5733;
+            color: white;
+            padding: 12px 24px;
+            text-decoration: none;
+            font-size: 18px;
+            border-radius: 5px;
+            display: inline-block;
+            margin-top: 20px;
+        }
+        .container {
+            text-align: center;
+            padding: 30px;
+            background-color: white;
+            margin: 20px auto;
+            width: 80%;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <script src="./js/auth.js"></script>
+
+    <nav class="nav-container">
+        <ul class="nav-list">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./homestay.html">Movies</a></li>
+            <li><a href="./blog.html">Blog</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+            <li><a href="./login.html">Login</a></li>
+            <li id="profile-icon-container"></li>
+        </ul>
+    </nav>
+
+    <div class="main-content">
+
+        <header class="hero">
+            <div class="hero-content">
+                <h1>Welcome to View and Review</h1>
+                <a href="./homestay.html" class="btn">Rate Movies Now</a>
+            </div>
+        </header>
+
+        <div id="featured-content" class="container"></div>
+    </div>
+
+    <script src="./js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            display: flex;
+        }
+
+        .nav-container {
+            background-color: #222;
+            padding: 20px;
+            width: 200px;
+            height: 100vh;
+            position: fixed;
+            left: 0;
+            top: 0;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .nav-list {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .nav-list li {
+            margin: 10px 0;
+        }
+
+        .nav-list li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            display: block;
+            padding: 10px;
+            transition: background 0.3s;
+        }
+
+        .nav-list li a:hover {
+            background: rgba(255, 255, 255, 0.2);
+        }
+
+        .main-content {
+            margin-left: 220px;
+            width: calc(100% - 220px);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .login-container {
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            max-width: 350px;
+            width: 100%;
+        }
+
+        h1 {
+            color: #333;
+            font-size: 22px;
+            margin-bottom: 15px;
+        }
+
+        .form label {
+            display: block;
+            margin: 10px 0;
+            font-weight: bold;
+            color: #555;
+        }
+
+        .form input {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+
+        .btn {
+            background-color: #222;
+            color: white;
+            padding: 10px 16px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 12px;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="nav-container">
+        <ul class="nav-list">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./homestay.html">Movies</a></li>
+            <li><a href="./blog.html">Blog</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+            <li><a href="./login.html">Login</a></li>
+        </ul>
+    </nav>
+
+    <div class="main-content">
+        <div class="login-container">
+            <h1>Login</h1>
+            <form id="login-form" class="form">
+                <label>Username:<input type="text" name="username" required /></label>
+                <label>Password:<input type="password" name="password" required /></label>
+                <button type="submit" class="btn">Log In</button>
+            </form>
+            <div id="login-status" style="margin-top: 10px; color: red;"></div>
+        </div>
+    </div>
+
+    <script src="./js/login.js"></script>
+
+</body>
+</html>
