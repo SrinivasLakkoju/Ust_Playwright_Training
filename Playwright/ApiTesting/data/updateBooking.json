@@ -1,0 +1,12 @@
+{
+    "firstname": "Srinivas",
+    "lastname": "Virat",
+    "totalprice": 220,
+    "depositpaid": false,
+    "bookingdates": {
+      "checkin": "2025-01-02",
+      "checkout": "2025-01-12"
+    },
+    "additionalneeds": "Breakfast"
+  }
+  

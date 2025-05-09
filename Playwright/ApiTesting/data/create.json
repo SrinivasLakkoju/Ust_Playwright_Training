@@ -1,0 +1,7 @@
+{
+    "name": "Sample Item",
+    "data": {
+        "category": "Electronics",
+        "price": 299.99
+    }
+}
